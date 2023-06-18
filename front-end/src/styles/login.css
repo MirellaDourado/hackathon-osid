@@ -1,0 +1,105 @@
+.login {
+  background-image: url(https://scontent.fssa7-1.fna.fbcdn.net/v/t39.30808-6/354245035_108551002276434_567802739543960600_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=VMv6r1LTkW8AX-MFXiZ&_nc_ht=scontent.fssa7-1.fna&oh=00_AfDzwpRv8zBBmXU_equg6C_9sZfSrwXtwtkAHxyiWqAUGA&oe=6493534C);
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.login-form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 20px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.login-hero {
+  background-color: #4197cc8a ;
+  width: 50%; 
+  display: flex;
+  justify-content: right;
+}
+
+.input-login {
+  height: 30px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px #00000057 solid;
+  text-align: center;
+}
+
+.label-login {
+  width: 80%;
+}
+
+.back-login {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  height: 80vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+}
+
+.dulce-login {
+  height: 100%;
+}
+
+.login-button {
+  border: none;
+  border-radius: 10px;
+  background-color: #00A1D7;
+  color: #3a3b3b;
+  padding: 10px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.login-button:disabled {
+  background-color: #00a1d77a; 
+  color: #56595b6e;
+  cursor: not-allowed;
+}
+
+.buttons-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.error-span {
+  align-items: center;
+  background-color: #ee4242d7;
+  border-radius: 12px;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 20px;
+  height: 75px;
+  width: 24vw;
+  text-align: center;
+  bottom: 50px;
+  right: 50px;
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos para telas menores que 768px */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .form-login {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  /* Estilos para telas maiores que 1025px */
+}

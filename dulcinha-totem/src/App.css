@@ -1,0 +1,87 @@
+.App {
+  background-image: url('https://scontent.fslz15-1.fna.fbcdn.net/v/t39.30808-6/354245035_108551002276434_567802739543960600_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=VMv6r1LTkW8AX_5sqjR&_nc_ht=scontent.fslz15-1.fna&oh=00_AfB5AJCMi7inyElfQs7NgnuEGwCn2YjH89rjq6V0ImB4FQ&oe=6493534C');
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  position: relative;
+}
+
+.App-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 80vw;
+}
+
+.div-wrapper {
+  width: 20vw;
+  border: 2px red solid;
+}
+
+.hero-text {
+  background-color: #0054A3;
+  height: 155px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  width: 60vw;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  /* font-size: 'Rale'; */
+}
+
+.totem-span {
+  background-color: rgba(207, 204, 204, 0.164);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.logo-osid {
+  border-radius: 20px;
+  height: 100px;
+}
+
+.totem-santa-dulce {
+  position: absolute;
+  right: 20px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
